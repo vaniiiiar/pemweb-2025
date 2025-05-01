@@ -16,7 +16,7 @@ class SeoSeeder extends Seeder
         if(Seo::count()==0){
             Seo::create([
                 'title' => 'Sepatu',
-                'description' => 'Abidas',
+                'description' => 'Adidas',
                 'keywords' => '',
                 'cannonical_url' => 'http://localhost',
                 'robots' => 'index, follow',
